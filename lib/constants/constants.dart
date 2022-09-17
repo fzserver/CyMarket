@@ -9,4 +9,7 @@ class Constants {
 
   /// Preferences
   static const isDarkModeOnPref = 'isDarkModeOnPref';
+
+  /// Strings
+  static const appTitle = 'Crypto Market';
 }

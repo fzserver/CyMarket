@@ -69,12 +69,12 @@ android {
         dev {
             dimension "cymarket"
             // applicationIdSuffix ".dev"
-            resValue "string", "app_name", "Dev GateMD"
+            resValue "string", "app_name", "Dev CyMarket"
         }
 
         prod {
             dimension "cymarket"
-            resValue "string", "app_name", "GateMD"
+            resValue "string", "app_name", "CyMarket"
         }
     }
 

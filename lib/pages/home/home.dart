@@ -1,6 +1,5 @@
+import 'package:cymarket/constants/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 class CryptoHome extends StatefulWidget {
   const CryptoHome({super.key});
@@ -12,6 +11,12 @@ class CryptoHome extends StatefulWidget {
 class _CryptoHomeState extends State<CryptoHome> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          Constants.appTitle,
+        ),
+      ),
+    );
   }
 }

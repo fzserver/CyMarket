@@ -1,13 +1,17 @@
+import 'package:cymarket/router/router.gr.dart';
 import 'package:get_it/get_it.dart';
 
+import 'analytics.dart';
 import 'api.dart';
+import 'appData.dart';
 import 'constants/constants.dart';
+import 'firebase_images_cache.dart';
 
 GetIt getIt = GetIt.instance;
 
 void setup(bool isProductionEnv) {
 // make sure you register it as a Singleton or a lazySingleton
-  getIt.registerSingleton<Router>(Router(), signalsReady: true);
+  getIt.registerSingleton<FzRouter>(FzRouter(), signalsReady: true);
 
   getIt.registerSingleton(
     API(

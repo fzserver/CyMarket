@@ -1,3 +1,4 @@
+import 'package:cymarket/router/router.gr.dart';
 import 'package:flutter/material.dart';
 
 class CryptoApp extends StatefulWidget {
@@ -10,20 +11,29 @@ class CryptoApp extends StatefulWidget {
 class _CryptoAppState extends State<CryptoApp> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
   }
 
+  // make sure you don't initiate your router
+  // inside of the build function.
+  final _router = FzRouter();
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Crypto',
+    return MaterialApp.router(
+      title: 'Crypto Market',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blueGrey,
+        brightness: Brightness.light,
+        scaffoldBackgroundColor: Colors.white,
+      ),
+      routerDelegate: _router.delegate(),
+      routeInformationParser: _router.defaultRouteParser(),
     );
   }
 }

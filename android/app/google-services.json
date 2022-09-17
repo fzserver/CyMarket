@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "327779298654",
+    "project_id": "cymarket-051c1",
+    "storage_bucket": "cymarket-051c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327779298654:android:852b1a5af37320e19173cf",
+        "android_client_info": {
+          "package_name": "com.fm.cymarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327779298654-b5aib9ddinfeqs57ic7ar71ogc23glc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCesmiK8buD_E46V8BUhqvq7tm8zbNtMEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327779298654-b5aib9ddinfeqs57ic7ar71ogc23glc4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "327779298654-05hvsnet4cj03f4p6bsbecrgnlce0heb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.fm.cymarket"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

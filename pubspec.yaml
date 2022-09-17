@@ -29,10 +29,13 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  auto_route: ^5.0.1
+  cached_network_image: ^3.2.2
   connectivity_plus: ^2.3.6+1
   crypto: ^3.0.2
   cupertino_icons: ^1.0.2
   firebase_analytics: ^9.3.4
+  firebase_core: ^1.22.0
   firebase_storage: ^10.3.8
   flutter:
     sdk: flutter
@@ -41,10 +44,9 @@ dependencies:
   shared_preferences: ^2.0.15
 
 dev_dependencies:
+  auto_route_generator: ^5.0.2
   build_runner: ^2.2.0
-  # flutter_launcher_icons: ^0.10.0
   flutter_lints: ^2.0.1
-  # flutter_rename_app: ^1.0.0
   flutter_test:
     sdk: flutter
   freezed: ^2.1.0+1
