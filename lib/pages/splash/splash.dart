@@ -30,7 +30,7 @@ class _SplashState extends State<Splash> {
         // 5s over, navigate to a new page
         context.router.replaceAll(
           [
-            HomeRouter(),
+            LoginRouter(),
           ],
         );
       },

@@ -1,3 +1,4 @@
+import 'package:cymarket/constants/colors.dart';
 import 'package:cymarket/router/router.gr.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +29,7 @@ class _CryptoAppState extends State<CryptoApp> {
       title: 'Crypto Market',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blueGrey,
+        primarySwatch: Colors.blue,
         brightness: Brightness.light,
         scaffoldBackgroundColor: Colors.white,
       ),

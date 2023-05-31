@@ -1,14 +1,14 @@
 import 'package:cymarket/constants/constants.dart';
 import 'package:flutter/material.dart';
 
-class CryptoHome extends StatefulWidget {
-  const CryptoHome({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key});
 
   @override
-  State<CryptoHome> createState() => _CryptoHomeState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _CryptoHomeState extends State<CryptoHome> {
+class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
